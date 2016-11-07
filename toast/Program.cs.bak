@@ -4,19 +4,17 @@
  * Copyright Nels Oscar 2013.
  */
 using System;
-using System.Diagnostics;
-using System.IO;
 using System.Linq;
 using System.Threading;
+using Windows.Data.Xml.Dom;
+using Windows.UI.Notifications;
+using System.Runtime;
+using System.IO;
+using System.Diagnostics;
 using ShellHelpers;
 using MS.WindowsAPICodePack.Internal;
 using Microsoft.WindowsAPICodePack.Shell.PropertySystem;
-using Windows.UI.Notifications;
-using Windows.Data.Xml.Dom;
-using System.Runtime;
 using System.Xml.Linq;
-
-
 
 namespace toast
 {
